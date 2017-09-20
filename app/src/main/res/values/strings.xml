@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SwoleMate</string>
+
+    <string name="chest">Chest</string>
+    <string name="back">Back</string>
+    <string name="shoulders">Shoulders</string>
+    <string name="quads">Quadriceps</string>
+    <string name="hamstring">Hamstrings</string>
+    <string name="glutes">Glutes</string>
+    <string name="abs">Abdominals</string>
+    <string name="biceps">Biceps</string>
+    <string name="triceps">Triceps</string>
+
+    <string name="hypertrophy">Hypertrophy &amp; Endurance</string>
+    <string name="power">Strength &amp; Power</string>
+</resources>
