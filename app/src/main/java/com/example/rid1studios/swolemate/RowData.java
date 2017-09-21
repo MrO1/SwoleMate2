@@ -9,6 +9,11 @@ public class RowData {
     private String title;
     private String subtitle;
 
+    public RowData(String titleIn, String subtitleIn){
+        title = titleIn;
+        subtitle = subtitleIn;
+    }
+
     public String getSubtitle() {
         return subtitle;
     }

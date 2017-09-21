@@ -24,6 +24,9 @@
         android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
         android:layout_toLeftOf="@id/strut"
+        android:background="@drawable/roundedborder"
+        android:divider="#FFDF00"
+        android:dividerHeight="4px"
         android:id="@+id/muscleGroup1"
         android:layout_below="@id/logoImage">
     </ListView>
@@ -34,7 +37,12 @@
         android:layout_height="match_parent"
         android:layout_alignParentRight="true"
         android:layout_toRightOf="@id/strut"
+        android:background="@drawable/roundedborder"
+        android:divider="#FFDF00"
+        android:dividerHeight="4px"
         android:id="@+id/muscleGroup2"
         android:layout_below="@id/logoImage">
     </ListView>
+
+
 </RelativeLayout>

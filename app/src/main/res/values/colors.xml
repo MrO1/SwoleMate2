@@ -10,4 +10,5 @@
     <color name="red">#FF0000</color>
 
     <color name="goldenyellow">#FFDF00</color>
+    <color name="transparent">#00000000</color>
 </resources>

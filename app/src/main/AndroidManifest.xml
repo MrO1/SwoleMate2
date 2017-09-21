@@ -3,6 +3,7 @@
     package="com.example.rid1studios.swolemate">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -23,7 +24,14 @@
         <activity
             android:name=".CreateWorkoutActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ShowWorkoutActivity"></activity>
+        <activity android:name=".ShowOneWorkoutActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <activity
+            android:name=".ShowTwoWorkoutActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
